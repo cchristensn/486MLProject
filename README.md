@@ -13,3 +13,7 @@ Transforms the *categories* and *mechanics* columns found in `trainingdata.csv` 
 Also creates new features extracting numeric values from `descriptions` such as sentence count, description length, unique word count, and special character count.
 
 File results in the creation of `cleantesting.csv` and `cleantraining.csv`
+
+
+#### stopwords.txt
+A text file of stopwords used for encoding the text data
