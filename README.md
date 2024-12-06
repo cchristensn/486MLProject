@@ -10,4 +10,6 @@ Transforms the *categories* and *mechanics* columns found in `trainingdata.csv` 
 
 (e.g. if a game has the categories *Trains* and *Healthcare* in the form `['Trains','Healthcare']`, it transforms into two columns `Trains` and `Healthcare` with the value of 1. All other categories have the value of 0)
 
+Also creates new features extracting numeric values from `descriptions` such as sentence count, description length, unique word count, and special character count.
+
 File results in the creation of `cleantesting.csv` and `cleantraining.csv`
