@@ -14,6 +14,9 @@ Also creates new features extracting numeric values from `descriptions` such as 
 
 File results in the creation of `cleantesting.csv` and `cleantraining.csv`
 
+#### BoardgamesSupervised.ipynb
+Creates 4 supervised ML model and predicts scores for the games found in `cleantesting.csv`.
+Outputs the predictions in `SupervisedPredictions.csv`
 
 #### stopwords.txt
 A text file of stopwords used for encoding the text data
