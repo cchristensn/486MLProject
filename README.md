@@ -18,5 +18,8 @@ File results in the creation of `cleantesting.csv` and `cleantraining.csv`
 Creates 4 supervised ML model and predicts scores for the games found in `cleantesting.csv`.
 Outputs the predictions in `SupervisedPredictions.csv`
 
+#### Deeplearning.ipynb
+Creates an ANN model trained on `cleantraining.csv`. Outputs the predictions in `DeeplearningPredictions.csv`
+
 #### stopwords.txt
 A text file of stopwords used for encoding the text data
