@@ -1,6 +1,7 @@
 This is the repository for my stat 486 ML project
 The aim is to predict an 'underground' boardgame's rating
 
+Data Colected through BoardGameGeek's XML API
 
 #### BoardgamesEDA.ipynb
 This file reads in from `boardgames_ranks.csv` and uses the BGG XML API to create `testingdata.csv` and `trainingdata.csv`. Loops are modular, but you need to replace objects 'by hand' to get the data frames you want/need.
