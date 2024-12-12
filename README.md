@@ -26,5 +26,7 @@ Creates an ANN model trained on `cleantraining.csv`. Outputs the predictions in 
 #### BoardgamesClustering.ipynb
 Performs a cluster analysis on both the properly ranked games and the games with unknown ranks. No output files, but determined they types of games I'm dealing with.
 
+Visualized clusters with both the most influential variables (found using SHAP) and using UMAP to reduce the dimensions of the data.
+
 #### stopwords.txt
 A text file of stop words used for encoding the text data
